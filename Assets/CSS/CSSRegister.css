@@ -1,0 +1,83 @@
+﻿
+.card {
+    background-color: white;
+    text-align: center;
+    margin-top: 2px;
+    border-radius: 5px;
+    border-top: 3px solid #0000ff;
+    width: 300px; /* Ajuste o valor conforme necessário */
+    margin-left: auto; /* Isso centralizará o elemento horizontalmente */
+    margin-right: auto; /* Isso centralizará o elemento horizontalmente */
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    height: 100vh;
+
+}
+.terms {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    
+}
+.input-group {
+    margin-bottom: 10px;
+}
+hr{
+    padding: 0;
+    margin-top: 5%;
+}
+.container2{
+    margin: auto 5px;
+}
+hr {
+    margin-left: 0; /* Remove a margem esquerda */
+    margin-right: 0; /* Remove a margem direita */
+    margin-top: 55px;
+}
+.btns{
+    padding: 5%;
+}
+.btn2 {
+    padding: 5%;
+    
+}
+.frasefinal {
+    color: mediumblue;
+    margin-top: 3%;
+    margin-left: 9%;
+    font-size: 13px;
+    text-align: left;
+}
+/* Estilizar o texto em negrito */
+.container2 .checkmark {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* Aumentar o tamanho do quadradinho do checkbox */
+.container2 input[type="checkbox"] {
+    margin-left: 2px; /* Defina um valor negativo para mover para a esquerda */
+    transform: scale(1.8); /* Ajuste o valor conforme necessário para aumentar ou diminuir o tamanho */
+}
+.blue-text {
+    color: blue;
+}
+.success-message {
+    color: green; /* Define a cor desejada (verde neste exemplo) */
+}
+
+.error-message {
+    color: red; /* Define a cor desejada (vermelho neste exemplo) */
+}
+
+
+
+
+
+    
+
